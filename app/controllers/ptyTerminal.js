@@ -1,4 +1,4 @@
-const os = require("node:os");
+const os = require("os");
 const pty = require("node-pty");
 
 const shell = os.platform() === "win32" ? "powershell.exe" : "bash";
